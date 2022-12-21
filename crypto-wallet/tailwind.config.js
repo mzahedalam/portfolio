@@ -7,6 +7,7 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         txtMain: '#1A3163',
+        blueShade: '#EFF4FF',
       },
     },
   },
