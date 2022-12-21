@@ -10,44 +10,94 @@
 </head>
 <body class="">
   <div class="container mx-auto box-border min-h-screen md:flex gap-4 text-center bg-sky-100">
-    <div class="basis-1/4">
-      <img class="w-1/4 mx-auto py-3" src="./img/cypto-wallet-logo.png" alt="">
-      <h1 class="logo text-lg font-bold uppercase">CryptoWallet</h1>
 
-<div class="flex flex-row">
+    <!-- Left Side Dashboard -->
+<div class="flex flex-row bg-white">
   <div class="flex flex-col h-screen justify-between w-64">
-    <div class="flex items-center justify-between text-gray-500 text-3xl px-5">
-      <b>CryptoWallet</b>
+    <div>
+      <img class="w-1/4 mx-auto py-3" src="./img/cypto-wallet-logo.png" alt="">
     </div>
-    <div class="flex flex-col flex-auto">
-      <div class="p-2">
-        <div class="flex flex-row space-x-3">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
+
+    <div class="flex items-center justify-between text-slate-600 text-2xl px-5 mb-5">
+      <b class="uppercase text-txtMain">CryptoWallet</b>
+    </div>
+    
+
+    <div class="flex flex-col justify-between flex-auto text-gray-500 mt-5">
+      <div class="flex space-x-4 ml-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-columns-gap w-5" viewBox="0 0 16 16">
+            <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
           </svg>
-          <h2 class="font-bold text-gray-400">Dashboard</h2>
         </div>
+        <div>Dashboard</div>
       </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-wallet2 w-5" viewBox="0 0 16 16">
+            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+          </svg>   
+        </div>
+        <div>My Wallet</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left-right w-5" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+          </svg>
+          
+        </div>
+        <div>Transaction</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-bar-graph w-5" viewBox="0 0 16 16">
+            <path d="M10 13.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v6zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+          </svg>
+        </div>
+        <div>Trade</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-graph-up-arrow w-5" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
+          </svg>
+        </div>
+        <div>Market Capital</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-info-square w-5" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+        </div>
+        <div>Coin Details</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-5">
+        <div class="bg-blue-200 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
+            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </div>
+        <div>Portfolio</div>
+      </div>
+      <div class="flex space-x-5 ml-5 mt-6 mb-2">
+        <div class="bg-red-400 px-3 py-2 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="w-5" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>
+        </div>
+        <div>Logout</div>
+      </div>
+
     </div>
   </div>
 </div>
-
-      
-      <!-- <ul class="list-none text-left px-2 flex flex-col">
-        <li></li>
-        <li><img class="w-5 inline" src="./img/icons/006-bitcoin-wallet.png"> My Wallet</li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right inline border-0 outline-slate-100 p-4 rounded-full" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
-        </svg>Transaction</li>
-        <li>Trade</li>
-        <li>Market Capital</li>
-        <li>Coin Details</li>
-        <li>Portfolio</li>
-        <li>Log Out</li>
-      </ul> -->
-    </div>
-    <div class="basis-2/4 bg-red-400">hi 2</div>
-    <div class="basis-1/4 bg-emerald-400">hi 2</div>
+<!-- End of LeftSide Dashboard -->
+  
   </div> 
 </body>
 </html>
