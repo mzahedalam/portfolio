@@ -9,7 +9,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body class="">
-  <div class="container mx-auto box-border min-h-screen md:flex gap-4 text-center bg-sky-100">
+  <div class="container mx-auto box-border min-h-screen md:flex gap-4 text-center bg-original">
 
     <!-- Left Side Dashboard -->
 <div class="flex flex-row bg-white">
@@ -100,13 +100,51 @@
 <!-- Main Area -->
 <div class="grid grid-cols-4 w-full gap-4">
   <div class="col-span-3">
+    <div class="relative flex items-center w-full h-12 rounded-lg border mt-5">
+      <div class="grid h-full w-12 place-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+      </div>
+      <input class="peer h-full w-full outline-none text-sm pr-2 border-inherit border rounded-r-lg" type="text" id="search"
+      placeholder="Search" />
+    </div>
+    <div class="grid grid-cols-2 mt-5 gap-5">
+      <div class="inline-flex space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 rounded-full" x="0px" y="0px"
+width="32" height="32"
+viewBox="0 0 32 32">
+<path d="M 12 3 L 12 6 L 8 6 L 8 26 L 12 26 L 12 29 L 14 29 L 14 26 L 16 26 L 16 29 L 18 29 L 18 26 L 19.5 26 C 22.527344 26 25 23.527344 25 20.5 C 25 18.417969 23.839844 16.589844 22.125 15.65625 C 23.28125 14.644531 24 13.148438 24 11.5 C 24 8.472656 21.527344 6 18.5 6 L 18 6 L 18 3 L 16 3 L 16 6 L 14 6 L 14 3 Z M 10 8 L 18.5 8 C 20.445313 8 22 9.554688 22 11.5 C 22 13.445313 20.445313 15 18.5 15 L 10 15 Z M 10 17 L 19.5 17 C 21.445313 17 23 18.554688 23 20.5 C 23 22.445313 21.445313 24 19.5 24 L 10 24 Z"></path>
+</svg> <h2>BTC/USDT</h2></div>
+      <div class="inline-flex space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 rounded-full" x="0px" y="0px"
+width="64" height="64"
+viewBox="0 0 128 128">
+<path d="M 64 1 C 29.26 1 1 29.26 1 64 C 1 98.74 29.26 127 64 127 C 98.74 127 127 98.74 127 64 C 127 29.26 98.74 1 64 1 z M 64 7 C 95.43 7 121 32.57 121 64 C 121 95.43 95.43 121 64 121 C 32.57 121 7 95.43 7 64 C 7 32.57 32.57 7 64 7 z M 64 20.839844 C 62.93 20.839844 61.950156 21.410078 61.410156 22.330078 L 37.990234 62.490234 C 37.450234 63.420234 37.450234 64.579766 37.990234 65.509766 L 61.410156 105.66016 C 61.950156 106.58016 62.93 107.15039 64 107.15039 C 65.07 107.15039 66.049844 106.58016 66.589844 105.66016 L 90.009766 65.509766 C 90.549766 64.579766 90.549766 63.420234 90.009766 62.490234 L 66.589844 22.330078 C 66.049844 21.410078 65.07 20.839844 64 20.839844 z M 64 29.800781 L 83.179688 62.679688 L 64 73.630859 L 44.820312 62.679688 L 64 29.800781 z M 48.550781 71.720703 L 62.509766 79.699219 C 62.969766 79.959219 63.48 80.099609 64 80.099609 C 64.52 80.099609 65.030234 79.969219 65.490234 79.699219 L 79.449219 71.720703 L 64 98.199219 L 48.550781 71.720703 z"></path>
+</svg><h2>ETH/USDT</h2></div>
+      <div class="col-span-2 bg-orange-200">Statistics</div>
+    </div>
     <h1 class="text-left uppercase font-bold text-3xl text-txtMain mt-5 ml-5">My Wallet</h1>
   </div>
   <div class="bg-white">
-    <ul class="flex justify-end gap-5 p-3">
-      <li class="bg-blueShade p-1 rounded-full">Mail</li>
-      <li class="bg-blueShade p-1 rounded-full">Noti</li>
-      <li>Profile</li>
+    <ul class="flex justify-end gap-5 p-3 items-center">
+      <li class="bg-blueShade p-1 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+        </svg>
+      </li>
+      <li class="bg-blueShade p-1 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5" />
+        </svg>
+        
+      </li>
+      <li class="inline-flex gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        <h3>John Doe</h3>
+      </li>
     </ul>
   </div>
 </div>

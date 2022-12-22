@@ -7,9 +7,12 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         txtMain: '#1A3163',
+        original: '#F9FBFF',
         blueShade: '#EFF4FF',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

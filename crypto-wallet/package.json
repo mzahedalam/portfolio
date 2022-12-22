@@ -11,6 +11,7 @@
   "author": "M Z Alam",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "prettier-plugin-tailwindcss": "^0.2.1"
   }
 }
