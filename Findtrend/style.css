@@ -95,7 +95,7 @@ nav .button__reg{
 .open-new-tab h1 {
   margin: 0;
   font-weight: 700;
-  font-size: 72px;
+  font-size: 65px;
   line-height: 86px;
 }
 .open-new-tab--rectangle{
@@ -114,16 +114,54 @@ nav .button__reg{
 
 .section--long-text{
   margin-top: 140px;
-  margin-bottom: 291px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 250px;
 }
 .long-text {
   max-width: 1160px;
   margin: auto;
-  font-size: 64px;
+  font-size: 45px;
   font-weight: 700;
-  line-height: 76px;
+  line-height: 60px;
 }
 .long-text__gray{
   color:#ADADAD;
   ;
+}
+
+.partner{
+  margin: auto 140px;
+}
+.partner--heading{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+  margin:auto;
+  padding: 2.5rem;
+}
+.partner--container{
+  /* border: 1px solid #A8FF35; */
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+}
+.partner-logo{
+  text-align: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  padding: 1rem;
+  background-color: #E5E5E5;
+  margin-bottom: 22px;
+}
+.partner-logo img{
+  width: 100%;
+}
+.img-content{
+  padding: 1px;
 }
