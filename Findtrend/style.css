@@ -380,7 +380,7 @@ input:checked + .slider:before {
 .section--join-us{
   /* height: 300px; */
   background-color: #A8FF35;
-  border-radius: 16px;
+  /* border-radius: 16px; */
 }
 .join-us--text{
   margin: auto;
@@ -413,13 +413,16 @@ input:checked + .slider:before {
 
 .footer--items{
   display: flex;
+  align-items: center;
+  margin-top: 5px;
 }
 .item{
   flex: 1;
+  padding: 5px;
 }
 .item--logo{
   padding-left: 130px;
-  padding-top: 25px;
+  padding-top: 0px;
 }
 .item ul{
   list-style: none;
