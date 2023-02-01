@@ -13,6 +13,7 @@ body{
 
 .max-width{
   max-width: 1280px;
+  margin: auto;
 }
 
 .section--heading{
@@ -161,10 +162,13 @@ nav .button__reg{
   color:#ADADAD;
   ;
 }
-
+.section--partner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .partner{
   margin: auto 140px;
-  
 }
 /* .partner--heading{
   text-align: center;
@@ -201,7 +205,9 @@ nav .button__reg{
 }
 .section--platform{
   background: #FAFAFA;
-  border: 1px solid #A8FF35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .platform{
   margin: 140px;
@@ -226,6 +232,10 @@ gap: 10px;
 }
 .social-content{
   padding: 77px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section--deal{
